@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 // Package main_test contains declaration of unit tests for the main package of
-// DVO writer service
+// DVO writer service.
 package main_test
 
 import (
