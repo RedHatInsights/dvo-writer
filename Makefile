@@ -70,3 +70,6 @@ docs/packages/%.html: %.go
 godoc: export GO111MODULE=off
 godoc: install_docgo install_addlicense ${DOCFILES}
 
+license: install_addlicense
+	addlicense -c "Red Hat, Inc" -l "apache" -v ./
+
