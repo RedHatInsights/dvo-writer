@@ -33,7 +33,7 @@ ineffassign: ## Run ineffassign checker
 	./ineffassign.sh
 
 shellcheck: ## Run shellcheck
-	shellcheck *.sh
+	./shellcheck.sh
 
 errcheck: ## Run errcheck
 	@echo "Running errcheck"
@@ -72,4 +72,3 @@ godoc: install_docgo install_addlicense ${DOCFILES}
 
 license: install_addlicense
 	addlicense -c "Red Hat, Inc" -l "apache" -v ./
-
